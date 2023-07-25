@@ -7,8 +7,8 @@ const config = {
   editTokenSalt: process.env.EDIT_TOKEN_SALT,
   mailFrom: process.env.MAIL_FROM,
   feathersAuthSecret: process.env.FEATHERS_AUTH_SECRET,
-  mailgunApiKey: process.env.MAILGUN_API_KEY,
-  mailgunDomain: process.env.MAILGUN_DOMAIN,
+  mailuser: process.env.MAIL_USER,
+  mailpassword: process.env.MAIL_PASSWORD,
   baseUrl: process.env.BASE_URL,
   prefixUrl: process.env.PREFIX_URL || '',
   adminRegistrationAllowed:
